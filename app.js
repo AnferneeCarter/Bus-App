@@ -60,9 +60,18 @@ class Bus {
     showTimes(index) {
         
         this.routeNameDOM.innerHTML = this.name;
-        this.stopDOM.innerHTML = this.busStops[index];
+        this.busStopsDOM.innerHTML = this.busStops[index];
+        
+        this.timeDOM.innerHTML = this.getTimes()
+        
+        
 //        //get the correct times. that match this stop. using the index argument
 //        //show the time on the webpage.
+    }
+    
+    getTimes() {
+        //do code the find out the times
+        return time
     }
 
 }
